@@ -3,6 +3,7 @@
   let sortKey = 'name';
   let sortDir = 1;
   let statusFilter = '';
+  let debounceTimer = null;
 
   const tableBody = document.getElementById('tableBody');
   const emptyState = document.getElementById('emptyState');
@@ -33,31 +34,36 @@
   }
 
   function applyFilters() {
-    const q = searchInput.value.trim().toLowerCase();
-    const wc = weightFilter.value;
-    const nat = natFilter.value;
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(fetchAndRender, 150);
+  }
 
-    let result = fighters.filter(f => {
-      const matchesQuery = !q ||
-        f.name.toLowerCase().includes(q) ||
-        f.weight_class.toLowerCase().includes(q) ||
-        f.nationality.toLowerCase().includes(q);
-      const matchesWeight = !wc || f.weight_class === wc;
-      const matchesNat = !nat || f.nationality === nat;
-      const matchesStatus = !statusFilter ||
-        (statusFilter === 'active' ? f.active : !f.active);
-      return matchesQuery && matchesWeight && matchesNat && matchesStatus;
-    });
+  function fetchAndRender() {
+    const params = new URLSearchParams();
+    const q = searchInput.value.trim();
+    if (q) params.set('q', q);
+    if (weightFilter.value) params.set('weight_class', weightFilter.value);
+    if (natFilter.value) params.set('nationality', natFilter.value);
+    if (statusFilter) params.set('status', statusFilter);
 
-    result.sort((a, b) => {
-      let av = a[sortKey], bv = b[sortKey];
-      if (typeof av === 'string') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
-      if (av < bv) return -1 * sortDir;
-      if (av > bv) return 1 * sortDir;
-      return 0;
-    });
-
-    render(result);
+    fetch(`${API_BASE}/api/fighters?${params.toString()}`)
+      .then(r => r.json())
+      .then(result => {
+        result.sort((a, b) => {
+          let av = a[sortKey], bv = b[sortKey];
+          if (typeof av === 'string') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+          if (av < bv) return -1 * sortDir;
+          if (av > bv) return 1 * sortDir;
+          return 0;
+        });
+        render(result);
+      })
+      .catch(err => {
+        tableBody.innerHTML = '';
+        emptyState.style.display = 'block';
+        emptyState.querySelector('.em-title').textContent = 'Could not load fighter data';
+        console.error(err);
+      });
   }
 
   function render(list) {
@@ -130,12 +136,12 @@
   weightFilter.addEventListener('change', applyFilters);
   natFilter.addEventListener('change', applyFilters);
 
-  fetch('data/fighters.json')
+  fetch(`${API_BASE}/api/fighters`)
     .then(r => r.json())
     .then(data => {
       fighters = data;
       populateFilterOptions();
-      applyFilters();
+      fetchAndRender();
     })
     .catch(err => {
       tableBody.innerHTML = '';

@@ -12,16 +12,12 @@
   const params = new URLSearchParams(window.location.search);
   const id = parseInt(params.get('id'), 10);
 
-  fetch('data/fighters.json')
-    .then(r => r.json())
-    .then(data => {
-      const f = data.find(x => x.id === id);
-      if (!f) {
-        renderNotFound();
-        return;
-      }
-      renderProfile(f);
+  fetch(`${API_BASE}/api/fighters/${id}`)
+    .then(r => {
+      if (!r.ok) throw new Error('Fighter not found');
+      return r.json();
     })
+    .then(renderProfile)
     .catch(err => {
       console.error(err);
       renderNotFound();
