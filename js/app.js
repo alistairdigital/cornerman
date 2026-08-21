@@ -19,8 +19,8 @@
   }
 
   function populateFilterOptions() {
-    const weights = [...new Set(fighters.map(f => f.weight_class))].sort();
-    const nats = [...new Set(fighters.map(f => f.nationality))].sort();
+    const weights = [...new Set(fighters.map(f => f.weight_class).filter(Boolean))].sort();
+    const nats = [...new Set(fighters.map(f => f.nationality).filter(Boolean))].sort();
     weights.forEach(w => {
       const opt = document.createElement('option');
       opt.value = w; opt.textContent = w;
@@ -89,15 +89,15 @@
             <span class="fighter-name">${f.name}</span>
           </div>
         </td>
-        <td><div class="nat-cell"><span class="flag">${f.flag}</span>${f.nationality}</div></td>
-        <td>${f.weight_class}</td>
+        <td><div class="nat-cell">${f.flag ? `<span class="flag">${f.flag}</span>` : ''}${f.nationality || 'Unknown'}</div></td>
+        <td>${f.weight_class || 'Unknown'}</td>
         <td>
           <span class="record-badge">
-            <span class="w">${f.wins}W</span>–<span class="l">${f.losses}L</span>–<span class="d">${f.draws}D</span>
+            <span class="w">${f.wins ?? '–'}W</span>–<span class="l">${f.losses ?? '–'}L</span>–<span class="d">${f.draws ?? '–'}D</span>
           </span>
         </td>
-        <td class="tnum">${f.kos}</td>
-        <td><span class="status-badge ${f.active ? 'active' : 'inactive'}">${f.active ? 'Active' : 'Inactive'}</span></td>
+        <td class="tnum">${f.kos ?? '–'}</td>
+        <td><span class="status-badge ${f.active === true ? 'active' : f.active === false ? 'inactive' : 'unknown'}">${f.active === true ? 'Active' : f.active === false ? 'Inactive' : 'Status unknown'}</span></td>
       `;
       frag.appendChild(tr);
     });

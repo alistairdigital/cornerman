@@ -1,3 +1,8 @@
 name = "cornerman-api"
 main = "src/index.js"
 compatibility_date = "2026-07-29"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cornerman"
+database_id = "982e4401-2897-4c07-a897-ca1fc83dfd38"

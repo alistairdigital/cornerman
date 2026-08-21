@@ -1,5 +1,3 @@
-import fighters from './fighters.json';
-
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, OPTIONS',
@@ -13,27 +11,67 @@ function json(data, status = 200) {
   });
 }
 
-function filterFighters(params) {
-  const q = (params.get('q') || '').trim().toLowerCase();
+function toFighterJson(row) {
+  if (!row) return row;
+  return {
+    ...row,
+    active: row.active === null || row.active === undefined ? null : Boolean(row.active),
+  };
+}
+
+function buildFtsQuery(q) {
+  return q
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((term) => `"${term.replace(/"/g, '""')}"*`)
+    .join(' ');
+}
+
+async function queryFighters(db, params) {
+  const q = params.get('q') || '';
   const weightClass = params.get('weight_class') || '';
   const nationality = params.get('nationality') || '';
   const status = params.get('status') || '';
 
-  return fighters.filter((f) => {
-    const matchesQuery = !q ||
-      f.name.toLowerCase().includes(q) ||
-      f.weight_class.toLowerCase().includes(q) ||
-      f.nationality.toLowerCase().includes(q);
-    const matchesWeight = !weightClass || f.weight_class === weightClass;
-    const matchesNationality = !nationality || f.nationality === nationality;
-    const matchesStatus = !status ||
-      (status === 'active' ? f.active : !f.active);
-    return matchesQuery && matchesWeight && matchesNationality && matchesStatus;
-  });
+  const conditions = [];
+  const args = [];
+  let sql;
+
+  if (q.trim()) {
+    sql = `SELECT f.* FROM fighters f
+           JOIN fighters_fts ON f.id = fighters_fts.rowid
+           WHERE fighters_fts MATCH ?`;
+    args.push(buildFtsQuery(q));
+  } else {
+    sql = 'SELECT * FROM fighters f WHERE 1=1';
+  }
+
+  if (weightClass) {
+    conditions.push('f.weight_class = ?');
+    args.push(weightClass);
+  }
+  if (nationality) {
+    conditions.push('f.nationality = ?');
+    args.push(nationality);
+  }
+  if (status === 'active') {
+    conditions.push('f.active = 1');
+  } else if (status === 'inactive') {
+    conditions.push('f.active = 0');
+  }
+
+  if (conditions.length) {
+    sql += ' AND ' + conditions.join(' AND ');
+  }
+  sql += ' ORDER BY f.name';
+
+  const result = await db.prepare(sql).bind(...args).all();
+  return result.results.map(toFighterJson);
 }
 
 export default {
-  async fetch(request) {
+  async fetch(request, env) {
     const url = new URL(request.url);
 
     if (request.method === 'OPTIONS') {
@@ -41,14 +79,17 @@ export default {
     }
 
     if (url.pathname === '/api/fighters' && request.method === 'GET') {
-      return json(filterFighters(url.searchParams));
+      const fighters = await queryFighters(env.DB, url.searchParams);
+      return json(fighters);
     }
 
     const profileMatch = url.pathname.match(/^\/api\/fighters\/(\d+)$/);
     if (profileMatch && request.method === 'GET') {
-      const fighter = fighters.find((f) => f.id === Number(profileMatch[1]));
-      if (!fighter) return json({ error: 'Fighter not found' }, 404);
-      return json(fighter);
+      const row = await env.DB.prepare('SELECT * FROM fighters WHERE id = ?')
+        .bind(Number(profileMatch[1]))
+        .first();
+      if (!row) return json({ error: 'Fighter not found' }, 404);
+      return json(toFighterJson(row));
     }
 
     return json({ error: 'Not found' }, 404);
