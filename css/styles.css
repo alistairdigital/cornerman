@@ -26,6 +26,26 @@
   --shadow-md: 0 4px 16px rgba(13, 27, 42, 0.08);
 }
 
+:root[data-theme="dark"] {
+  --bg: #0D1B2A;
+  --surface: #16273B;
+  --ink: #F5F5F5;
+  --ink-soft: #B7C0CC;
+  --win: #5FA875;
+  --loss: #9AA6B2;
+  --draw: #7C8894;
+  --border: #24384D;
+  --border-soft: #1C2E42;
+}
+
+:root[data-theme="dark"] .fighters-table thead th {
+  background: #10202F;
+}
+
+body, .nav, .table-card, .filters, .stat-card, .search-input, .fighters-table thead th {
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+
 * { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
@@ -117,6 +137,33 @@ a { color: inherit; text-decoration: none; }
 .nav-links a.active {
   color: var(--red);
   border-bottom-color: var(--red);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.theme-toggle {
+  width: 34px;
+  height: 34px;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink-soft);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0;
+  transition: color .15s ease, border-color .15s ease, background-color .15s ease;
+}
+
+.theme-toggle:hover {
+  color: var(--red);
+  border-color: var(--red);
 }
 
 /* ---------- Hero / search ---------- */

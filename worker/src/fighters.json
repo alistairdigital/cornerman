@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Andriy Okafor",
     "nationality": "Nigeria",
-    "flag": "\ud83c\uddf3\ud83c\uddec",
+    "flag": "🇳🇬",
     "weight_class": "Heavyweight",
     "wins": 15,
     "losses": 5,
@@ -19,7 +19,7 @@
     "id": 2,
     "name": "Diego Idowu",
     "nationality": "Philippines",
-    "flag": "\ud83c\uddf5\ud83c\udded",
+    "flag": "🇵🇭",
     "weight_class": "Heavyweight",
     "wins": 30,
     "losses": 4,
@@ -38,7 +38,7 @@
     "id": 3,
     "name": "Femi Nakamura",
     "nationality": "UK",
-    "flag": "\ud83c\uddec\ud83c\udde7",
+    "flag": "🇬🇧",
     "weight_class": "Heavyweight",
     "wins": 20,
     "losses": 5,
@@ -77,7 +77,7 @@
     "id": 4,
     "name": "Sergio Rourke",
     "nationality": "Japan",
-    "flag": "\ud83c\uddef\ud83c\uddf5",
+    "flag": "🇯🇵",
     "weight_class": "Heavyweight",
     "wins": 25,
     "losses": 1,
@@ -98,7 +98,7 @@
     "id": 5,
     "name": "Sergio Whitfield",
     "nationality": "Brazil",
-    "flag": "\ud83c\udde7\ud83c\uddf7",
+    "flag": "🇧🇷",
     "weight_class": "Heavyweight",
     "wins": 30,
     "losses": 5,
@@ -118,7 +118,7 @@
     "id": 6,
     "name": "Chidi Bishop",
     "nationality": "Brazil",
-    "flag": "\ud83c\udde7\ud83c\uddf7",
+    "flag": "🇧🇷",
     "weight_class": "Heavyweight",
     "wins": 20,
     "losses": 1,
@@ -159,7 +159,7 @@
     "id": 7,
     "name": "Marco Rourke",
     "nationality": "Philippines",
-    "flag": "\ud83c\uddf5\ud83c\udded",
+    "flag": "🇵🇭",
     "weight_class": "Heavyweight",
     "wins": 12,
     "losses": 1,
@@ -175,7 +175,7 @@
     "id": 8,
     "name": "Bek Barros",
     "nationality": "Mexico",
-    "flag": "\ud83c\uddf2\ud83c\uddfd",
+    "flag": "🇲🇽",
     "weight_class": "Cruiserweight",
     "wins": 15,
     "losses": 0,
@@ -194,7 +194,7 @@
     "id": 9,
     "name": "Enzo Bishop",
     "nationality": "Philippines",
-    "flag": "\ud83c\uddf5\ud83c\udded",
+    "flag": "🇵🇭",
     "weight_class": "Cruiserweight",
     "wins": 25,
     "losses": 5,
@@ -213,7 +213,7 @@
     "id": 10,
     "name": "Diego Achebe",
     "nationality": "Canada",
-    "flag": "\ud83c\udde8\ud83c\udde6",
+    "flag": "🇨🇦",
     "weight_class": "Cruiserweight",
     "wins": 15,
     "losses": 0,
@@ -229,7 +229,7 @@
     "id": 11,
     "name": "Anton Whitfield",
     "nationality": "Canada",
-    "flag": "\ud83c\udde8\ud83c\udde6",
+    "flag": "🇨🇦",
     "weight_class": "Cruiserweight",
     "wins": 12,
     "losses": 4,
@@ -266,7 +266,7 @@
     "id": 12,
     "name": "Levi Barros",
     "nationality": "UK",
-    "flag": "\ud83c\uddec\ud83c\udde7",
+    "flag": "🇬🇧",
     "weight_class": "Cruiserweight",
     "wins": 22,
     "losses": 4,
@@ -287,7 +287,7 @@
     "id": 13,
     "name": "Emeka Marchetti",
     "nationality": "Australia",
-    "flag": "\ud83c\udde6\ud83c\uddfa",
+    "flag": "🇦🇺",
     "weight_class": "Cruiserweight",
     "wins": 8,
     "losses": 2,
@@ -307,7 +307,7 @@
     "id": 14,
     "name": "Emeka Callahan",
     "nationality": "Mexico",
-    "flag": "\ud83c\uddf2\ud83c\uddfd",
+    "flag": "🇲🇽",
     "weight_class": "Cruiserweight",
     "wins": 9,
     "losses": 4,
@@ -339,7 +339,7 @@
     "id": 15,
     "name": "Carlos Barros",
     "nationality": "Nigeria",
-    "flag": "\ud83c\uddf3\ud83c\uddec",
+    "flag": "🇳🇬",
     "weight_class": "Light Heavyweight",
     "wins": 20,
     "losses": 4,
@@ -368,7 +368,7 @@
     "id": 16,
     "name": "Bek Tanaka",
     "nationality": "Dominican Republic",
-    "flag": "\ud83c\udde9\ud83c\uddf4",
+    "flag": "🇩🇴",
     "weight_class": "Light Heavyweight",
     "wins": 8,
     "losses": 4,
@@ -397,7 +397,7 @@
     "id": 17,
     "name": "Dante Kowalski",
     "nationality": "USA",
-    "flag": "\ud83c\uddfa\ud83c\uddf8",
+    "flag": "🇺🇸",
     "weight_class": "Light Heavyweight",
     "wins": 18,
     "losses": 5,
@@ -441,7 +441,7 @@
     "id": 18,
     "name": "Femi Zhukov",
     "nationality": "Kazakhstan",
-    "flag": "\ud83c\uddf0\ud83c\uddff",
+    "flag": "🇰🇿",
     "weight_class": "Light Heavyweight",
     "wins": 16,
     "losses": 5,
@@ -459,7 +459,7 @@
     "id": 19,
     "name": "Wale Okafor",
     "nationality": "Philippines",
-    "flag": "\ud83c\uddf5\ud83c\udded",
+    "flag": "🇵🇭",
     "weight_class": "Light Heavyweight",
     "wins": 20,
     "losses": 0,
@@ -498,7 +498,7 @@
     "id": 20,
     "name": "Connor Novak",
     "nationality": "Ghana",
-    "flag": "\ud83c\uddec\ud83c\udded",
+    "flag": "🇬🇭",
     "weight_class": "Light Heavyweight",
     "wins": 10,
     "losses": 2,
@@ -514,7 +514,7 @@
     "id": 21,
     "name": "Carlos Obi",
     "nationality": "South Africa",
-    "flag": "\ud83c\uddff\ud83c\udde6",
+    "flag": "🇿🇦",
     "weight_class": "Light Heavyweight",
     "wins": 25,
     "losses": 6,
@@ -532,7 +532,7 @@
     "id": 22,
     "name": "Ben Bishop",
     "nationality": "Brazil",
-    "flag": "\ud83c\udde7\ud83c\uddf7",
+    "flag": "🇧🇷",
     "weight_class": "Super Middleweight",
     "wins": 27,
     "losses": 3,
@@ -572,7 +572,7 @@
     "id": 23,
     "name": "Marcus Nakamura",
     "nationality": "Ghana",
-    "flag": "\ud83c\uddec\ud83c\udded",
+    "flag": "🇬🇭",
     "weight_class": "Super Middleweight",
     "wins": 15,
     "losses": 5,
@@ -588,7 +588,7 @@
     "id": 24,
     "name": "Zach Idowu",
     "nationality": "Uzbekistan",
-    "flag": "\ud83c\uddfa\ud83c\uddff",
+    "flag": "🇺🇿",
     "weight_class": "Super Middleweight",
     "wins": 18,
     "losses": 3,
@@ -607,7 +607,7 @@
     "id": 25,
     "name": "Dante Bekmuradov",
     "nationality": "Georgia",
-    "flag": "\ud83c\uddec\ud83c\uddea",
+    "flag": "🇬🇪",
     "weight_class": "Super Middleweight",
     "wins": 28,
     "losses": 3,
@@ -626,7 +626,7 @@
     "id": 26,
     "name": "Amir Whitfield",
     "nationality": "UK",
-    "flag": "\ud83c\uddec\ud83c\udde7",
+    "flag": "🇬🇧",
     "weight_class": "Super Middleweight",
     "wins": 21,
     "losses": 4,
@@ -646,7 +646,7 @@
     "id": 27,
     "name": "Bek Santoro",
     "nationality": "Ghana",
-    "flag": "\ud83c\uddec\ud83c\udded",
+    "flag": "🇬🇭",
     "weight_class": "Super Middleweight",
     "wins": 25,
     "losses": 4,
@@ -684,7 +684,7 @@
     "id": 28,
     "name": "Carlos Torres",
     "nationality": "Australia",
-    "flag": "\ud83c\udde6\ud83c\uddfa",
+    "flag": "🇦🇺",
     "weight_class": "Super Middleweight",
     "wins": 16,
     "losses": 3,
@@ -717,7 +717,7 @@
     "id": 29,
     "name": "Julius Rourke",
     "nationality": "Uzbekistan",
-    "flag": "\ud83c\uddfa\ud83c\uddff",
+    "flag": "🇺🇿",
     "weight_class": "Middleweight",
     "wins": 31,
     "losses": 1,
@@ -736,7 +736,7 @@
     "id": 30,
     "name": "Ivan Nakamura",
     "nationality": "South Africa",
-    "flag": "\ud83c\uddff\ud83c\udde6",
+    "flag": "🇿🇦",
     "weight_class": "Middleweight",
     "wins": 29,
     "losses": 0,
@@ -757,7 +757,7 @@
     "id": 31,
     "name": "Anton Nakamura",
     "nationality": "Ghana",
-    "flag": "\ud83c\uddec\ud83c\udded",
+    "flag": "🇬🇭",
     "weight_class": "Middleweight",
     "wins": 19,
     "losses": 3,
@@ -796,7 +796,7 @@
     "id": 32,
     "name": "Femi Petrov",
     "nationality": "Uzbekistan",
-    "flag": "\ud83c\uddfa\ud83c\uddff",
+    "flag": "🇺🇿",
     "weight_class": "Middleweight",
     "wins": 30,
     "losses": 4,
@@ -835,7 +835,7 @@
     "id": 33,
     "name": "Wale Bondarenko",
     "nationality": "Philippines",
-    "flag": "\ud83c\uddf5\ud83c\udded",
+    "flag": "🇵🇭",
     "weight_class": "Middleweight",
     "wins": 18,
     "losses": 8,
@@ -855,7 +855,7 @@
     "id": 34,
     "name": "Bek Reyes",
     "nationality": "Canada",
-    "flag": "\ud83c\udde8\ud83c\udde6",
+    "flag": "🇨🇦",
     "weight_class": "Middleweight",
     "wins": 12,
     "losses": 0,
@@ -896,7 +896,7 @@
     "id": 35,
     "name": "Bruno Mensah",
     "nationality": "Brazil",
-    "flag": "\ud83c\udde7\ud83c\uddf7",
+    "flag": "🇧🇷",
     "weight_class": "Middleweight",
     "wins": 21,
     "losses": 4,
@@ -912,7 +912,7 @@
     "id": 36,
     "name": "Liam Marchetti",
     "nationality": "Kazakhstan",
-    "flag": "\ud83c\uddf0\ud83c\uddff",
+    "flag": "🇰🇿",
     "weight_class": "Welterweight",
     "wins": 13,
     "losses": 1,
@@ -956,7 +956,7 @@
     "id": 37,
     "name": "Kai Bishop",
     "nationality": "Ireland",
-    "flag": "\ud83c\uddee\ud83c\uddea",
+    "flag": "🇮🇪",
     "weight_class": "Welterweight",
     "wins": 27,
     "losses": 0,
@@ -977,7 +977,7 @@
     "id": 38,
     "name": "Dante Osei",
     "nationality": "Brazil",
-    "flag": "\ud83c\udde7\ud83c\uddf7",
+    "flag": "🇧🇷",
     "weight_class": "Welterweight",
     "wins": 21,
     "losses": 3,
@@ -996,7 +996,7 @@
     "id": 39,
     "name": "Yuto Obi",
     "nationality": "Canada",
-    "flag": "\ud83c\udde8\ud83c\udde6",
+    "flag": "🇨🇦",
     "weight_class": "Welterweight",
     "wins": 9,
     "losses": 2,
@@ -1014,7 +1014,7 @@
     "id": 40,
     "name": "Zach Novak",
     "nationality": "Uzbekistan",
-    "flag": "\ud83c\uddfa\ud83c\uddff",
+    "flag": "🇺🇿",
     "weight_class": "Welterweight",
     "wins": 32,
     "losses": 3,
@@ -1032,7 +1032,7 @@
     "id": 41,
     "name": "Enzo Barros",
     "nationality": "Japan",
-    "flag": "\ud83c\uddef\ud83c\uddf5",
+    "flag": "🇯🇵",
     "weight_class": "Welterweight",
     "wins": 17,
     "losses": 4,
@@ -1067,7 +1067,7 @@
     "id": 42,
     "name": "Yuto Mensah",
     "nationality": "Brazil",
-    "flag": "\ud83c\udde7\ud83c\uddf7",
+    "flag": "🇧🇷",
     "weight_class": "Welterweight",
     "wins": 26,
     "losses": 3,
@@ -1086,7 +1086,7 @@
     "id": 43,
     "name": "Connor Barros",
     "nationality": "Brazil",
-    "flag": "\ud83c\udde7\ud83c\uddf7",
+    "flag": "🇧🇷",
     "weight_class": "Lightweight",
     "wins": 20,
     "losses": 3,
@@ -1106,7 +1106,7 @@
     "id": 44,
     "name": "Femi Nakamura",
     "nationality": "Poland",
-    "flag": "\ud83c\uddf5\ud83c\uddf1",
+    "flag": "🇵🇱",
     "weight_class": "Lightweight",
     "wins": 11,
     "losses": 3,
@@ -1145,7 +1145,7 @@
     "id": 45,
     "name": "Bruno Marchetti",
     "nationality": "South Africa",
-    "flag": "\ud83c\uddff\ud83c\udde6",
+    "flag": "🇿🇦",
     "weight_class": "Lightweight",
     "wins": 8,
     "losses": 0,
@@ -1161,7 +1161,7 @@
     "id": 46,
     "name": "Julius Osei",
     "nationality": "UK",
-    "flag": "\ud83c\uddec\ud83c\udde7",
+    "flag": "🇬🇧",
     "weight_class": "Lightweight",
     "wins": 27,
     "losses": 4,
@@ -1182,7 +1182,7 @@
     "id": 47,
     "name": "Yuto Fontaine",
     "nationality": "Japan",
-    "flag": "\ud83c\uddef\ud83c\uddf5",
+    "flag": "🇯🇵",
     "weight_class": "Lightweight",
     "wins": 10,
     "losses": 2,
@@ -1219,7 +1219,7 @@
     "id": 48,
     "name": "Wale Kuznetsov",
     "nationality": "Uzbekistan",
-    "flag": "\ud83c\uddfa\ud83c\uddff",
+    "flag": "🇺🇿",
     "weight_class": "Lightweight",
     "wins": 16,
     "losses": 5,
@@ -1252,7 +1252,7 @@
     "id": 49,
     "name": "Yuto Torres",
     "nationality": "Puerto Rico",
-    "flag": "\ud83c\uddf5\ud83c\uddf7",
+    "flag": "🇵🇷",
     "weight_class": "Lightweight",
     "wins": 22,
     "losses": 1,
@@ -1272,7 +1272,7 @@
     "id": 50,
     "name": "Malik Achebe",
     "nationality": "Australia",
-    "flag": "\ud83c\udde6\ud83c\uddfa",
+    "flag": "🇦🇺",
     "weight_class": "Featherweight",
     "wins": 34,
     "losses": 2,
@@ -1293,7 +1293,7 @@
     "id": 51,
     "name": "Andriy Silva",
     "nationality": "Mexico",
-    "flag": "\ud83c\uddf2\ud83c\uddfd",
+    "flag": "🇲🇽",
     "weight_class": "Featherweight",
     "wins": 9,
     "losses": 3,
@@ -1337,7 +1337,7 @@
     "id": 52,
     "name": "Levi Kavanagh",
     "nationality": "Philippines",
-    "flag": "\ud83c\uddf5\ud83c\udded",
+    "flag": "🇵🇭",
     "weight_class": "Featherweight",
     "wins": 28,
     "losses": 0,
@@ -1355,7 +1355,7 @@
     "id": 53,
     "name": "Femi Adeyemi",
     "nationality": "Uzbekistan",
-    "flag": "\ud83c\uddfa\ud83c\uddff",
+    "flag": "🇺🇿",
     "weight_class": "Featherweight",
     "wins": 8,
     "losses": 1,
@@ -1371,7 +1371,7 @@
     "id": 54,
     "name": "Owen Barros",
     "nationality": "Brazil",
-    "flag": "\ud83c\udde7\ud83c\uddf7",
+    "flag": "🇧🇷",
     "weight_class": "Featherweight",
     "wins": 18,
     "losses": 4,
@@ -1415,7 +1415,7 @@
     "id": 55,
     "name": "Chidi Idowu",
     "nationality": "Ireland",
-    "flag": "\ud83c\uddee\ud83c\uddea",
+    "flag": "🇮🇪",
     "weight_class": "Featherweight",
     "wins": 20,
     "losses": 4,
@@ -1460,7 +1460,7 @@
     "id": 56,
     "name": "Chidi Idowu",
     "nationality": "Canada",
-    "flag": "\ud83c\udde8\ud83c\udde6",
+    "flag": "🇨🇦",
     "weight_class": "Featherweight",
     "wins": 18,
     "losses": 3,
@@ -1480,7 +1480,7 @@
     "id": 57,
     "name": "Kwame Hassan",
     "nationality": "Puerto Rico",
-    "flag": "\ud83c\uddf5\ud83c\uddf7",
+    "flag": "🇵🇷",
     "weight_class": "Bantamweight",
     "wins": 19,
     "losses": 2,
@@ -1511,7 +1511,7 @@
     "id": 58,
     "name": "Liam Bekmuradov",
     "nationality": "Philippines",
-    "flag": "\ud83c\uddf5\ud83c\udded",
+    "flag": "🇵🇭",
     "weight_class": "Bantamweight",
     "wins": 20,
     "losses": 2,
@@ -1555,7 +1555,7 @@
     "id": 59,
     "name": "Malik Duarte",
     "nationality": "Ireland",
-    "flag": "\ud83c\uddee\ud83c\uddea",
+    "flag": "🇮🇪",
     "weight_class": "Bantamweight",
     "wins": 11,
     "losses": 6,
@@ -1594,7 +1594,7 @@
     "id": 60,
     "name": "Chidi Obi",
     "nationality": "Dominican Republic",
-    "flag": "\ud83c\udde9\ud83c\uddf4",
+    "flag": "🇩🇴",
     "weight_class": "Bantamweight",
     "wins": 10,
     "losses": 2,
@@ -1610,7 +1610,7 @@
     "id": 61,
     "name": "Connor Abara",
     "nationality": "Cuba",
-    "flag": "\ud83c\udde8\ud83c\uddfa",
+    "flag": "🇨🇺",
     "weight_class": "Bantamweight",
     "wins": 31,
     "losses": 5,
@@ -1642,7 +1642,7 @@
     "id": 62,
     "name": "Bek Petrov",
     "nationality": "Brazil",
-    "flag": "\ud83c\udde7\ud83c\uddf7",
+    "flag": "🇧🇷",
     "weight_class": "Bantamweight",
     "wins": 9,
     "losses": 0,
@@ -1671,7 +1671,7 @@
     "id": 63,
     "name": "Marco Adeyemi",
     "nationality": "Mexico",
-    "flag": "\ud83c\uddf2\ud83c\uddfd",
+    "flag": "🇲🇽",
     "weight_class": "Bantamweight",
     "wins": 22,
     "losses": 5,
@@ -1714,7 +1714,7 @@
     "id": 64,
     "name": "Rocco Silva",
     "nationality": "Uzbekistan",
-    "flag": "\ud83c\uddfa\ud83c\uddff",
+    "flag": "🇺🇿",
     "weight_class": "Flyweight",
     "wins": 30,
     "losses": 2,
@@ -1746,7 +1746,7 @@
     "id": 65,
     "name": "Yuto Nakamura",
     "nationality": "Dominican Republic",
-    "flag": "\ud83c\udde9\ud83c\uddf4",
+    "flag": "🇩🇴",
     "weight_class": "Flyweight",
     "wins": 32,
     "losses": 5,
@@ -1792,7 +1792,7 @@
     "id": 66,
     "name": "Enzo Silva",
     "nationality": "Nigeria",
-    "flag": "\ud83c\uddf3\ud83c\uddec",
+    "flag": "🇳🇬",
     "weight_class": "Flyweight",
     "wins": 9,
     "losses": 2,
@@ -1811,7 +1811,7 @@
     "id": 67,
     "name": "Amir Bishop",
     "nationality": "UK",
-    "flag": "\ud83c\uddec\ud83c\udde7",
+    "flag": "🇬🇧",
     "weight_class": "Flyweight",
     "wins": 15,
     "losses": 2,
@@ -1830,7 +1830,7 @@
     "id": 68,
     "name": "Ryo Torres",
     "nationality": "Ukraine",
-    "flag": "\ud83c\uddfa\ud83c\udde6",
+    "flag": "🇺🇦",
     "weight_class": "Flyweight",
     "wins": 12,
     "losses": 7,
@@ -1850,7 +1850,7 @@
     "id": 69,
     "name": "Danilo Rourke",
     "nationality": "Dominican Republic",
-    "flag": "\ud83c\udde9\ud83c\uddf4",
+    "flag": "🇩🇴",
     "weight_class": "Flyweight",
     "wins": 21,
     "losses": 4,
@@ -1868,7 +1868,7 @@
     "id": 70,
     "name": "Enzo Fontaine",
     "nationality": "USA",
-    "flag": "\ud83c\uddfa\ud83c\uddf8",
+    "flag": "🇺🇸",
     "weight_class": "Flyweight",
     "wins": 28,
     "losses": 1,
@@ -1879,5 +1879,905 @@
     "stance": "Orthodox",
     "dob": "1997-06-08",
     "fight_history": []
+  },
+  {
+    "id": 71,
+    "name": "Marcus Okafor",
+    "nationality": "Ukraine",
+    "flag": "🇺🇦",
+    "weight_class": "Super Middleweight",
+    "wins": 17,
+    "losses": 7,
+    "draws": 0,
+    "kos": 5,
+    "active": true,
+    "sanctioning_bodies": [
+      "WBA"
+    ],
+    "stance": "Southpaw",
+    "dob": "2000-11-21",
+    "fight_history": [
+      {
+        "opponent": "Julius Santoro",
+        "result": "W",
+        "method": "TKO",
+        "date": "2020-11-23"
+      },
+      {
+        "opponent": "Connor Reyes",
+        "result": "W",
+        "method": "RTD",
+        "date": "2024-06-12"
+      },
+      {
+        "opponent": "Bruno Salvatore",
+        "result": "W",
+        "method": "TKO",
+        "date": "2023-08-23"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Danilo Obi",
+    "nationality": "Thailand",
+    "flag": "🇹🇭",
+    "weight_class": "Heavyweight",
+    "wins": 10,
+    "losses": 8,
+    "draws": 0,
+    "kos": 4,
+    "active": true,
+    "sanctioning_bodies": [],
+    "stance": "Orthodox",
+    "dob": "2003-11-01",
+    "fight_history": [
+      {
+        "opponent": "Ben Duarte",
+        "result": "W",
+        "method": "SD",
+        "date": "2022-07-03"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Enzo Lindqvist",
+    "nationality": "Poland",
+    "flag": "🇵🇱",
+    "weight_class": "Light Heavyweight",
+    "wins": 21,
+    "losses": 1,
+    "draws": 1,
+    "kos": 13,
+    "active": true,
+    "sanctioning_bodies": [
+      "WBA"
+    ],
+    "stance": "Orthodox",
+    "dob": "1999-12-11",
+    "fight_history": []
+  },
+  {
+    "id": 74,
+    "name": "Wale Kowalski",
+    "nationality": "Kazakhstan",
+    "flag": "🇰🇿",
+    "weight_class": "Heavyweight",
+    "wins": 8,
+    "losses": 3,
+    "draws": 0,
+    "kos": 6,
+    "active": false,
+    "sanctioning_bodies": [],
+    "stance": "Southpaw",
+    "dob": "2005-05-22",
+    "fight_history": [
+      {
+        "opponent": "Tariq Whitfield",
+        "result": "W",
+        "method": "KO",
+        "date": "2020-07-25"
+      },
+      {
+        "opponent": "Liam Callahan",
+        "result": "W",
+        "method": "MD",
+        "date": "2020-08-11"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Reece Zhukov",
+    "nationality": "Puerto Rico",
+    "flag": "🇵🇷",
+    "weight_class": "Flyweight",
+    "wins": 25,
+    "losses": 6,
+    "draws": 1,
+    "kos": 10,
+    "active": true,
+    "sanctioning_bodies": [
+      "IBF",
+      "WBA"
+    ],
+    "stance": "Southpaw",
+    "dob": "2002-10-06",
+    "fight_history": [
+      {
+        "opponent": "Carlos Abara",
+        "result": "W",
+        "method": "SD",
+        "date": "2021-04-17"
+      },
+      {
+        "opponent": "Chidi Duarte",
+        "result": "L",
+        "method": "KO",
+        "date": "2020-08-09"
+      },
+      {
+        "opponent": "Marcus Torres",
+        "result": "W",
+        "method": "RTD",
+        "date": "2022-03-05"
+      },
+      {
+        "opponent": "Owen Novak",
+        "result": "D",
+        "method": "KO",
+        "date": "2026-11-13"
+      },
+      {
+        "opponent": "Nikolai Osei",
+        "result": "D",
+        "method": "TKO",
+        "date": "2019-07-03"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Ivan Delgado",
+    "nationality": "Ukraine",
+    "flag": "🇺🇦",
+    "weight_class": "Super Middleweight",
+    "wins": 13,
+    "losses": 8,
+    "draws": 0,
+    "kos": 3,
+    "active": true,
+    "sanctioning_bodies": [],
+    "stance": "Orthodox",
+    "dob": "2004-05-12",
+    "fight_history": [
+      {
+        "opponent": "Danilo Silva",
+        "result": "W",
+        "method": "SD",
+        "date": "2025-09-03"
+      },
+      {
+        "opponent": "Enzo Zhukov",
+        "result": "L",
+        "method": "UD",
+        "date": "2026-02-11"
+      },
+      {
+        "opponent": "Emeka Lindqvist",
+        "result": "W",
+        "method": "UD",
+        "date": "2022-03-28"
+      },
+      {
+        "opponent": "Wale Bondarenko",
+        "result": "W",
+        "method": "RTD",
+        "date": "2019-06-12"
+      },
+      {
+        "opponent": "Bek Barros",
+        "result": "L",
+        "method": "RTD",
+        "date": "2021-07-09"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Wale Delgado",
+    "nationality": "Georgia",
+    "flag": "🇬🇪",
+    "weight_class": "Middleweight",
+    "wins": 9,
+    "losses": 7,
+    "draws": 1,
+    "kos": 4,
+    "active": true,
+    "sanctioning_bodies": [],
+    "stance": "Orthodox",
+    "dob": "2003-09-07",
+    "fight_history": [
+      {
+        "opponent": "Bruno Abara",
+        "result": "W",
+        "method": "SD",
+        "date": "2020-05-07"
+      },
+      {
+        "opponent": "Chidi Silva",
+        "result": "L",
+        "method": "SD",
+        "date": "2024-09-03"
+      },
+      {
+        "opponent": "Carlos Barros",
+        "result": "W",
+        "method": "MD",
+        "date": "2025-06-06"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Sergio Achebe",
+    "nationality": "Georgia",
+    "flag": "🇬🇪",
+    "weight_class": "Welterweight",
+    "wins": 13,
+    "losses": 5,
+    "draws": 0,
+    "kos": 8,
+    "active": true,
+    "sanctioning_bodies": [],
+    "stance": "Orthodox",
+    "dob": "2003-10-13",
+    "fight_history": []
+  },
+  {
+    "id": 79,
+    "name": "Malik Obi",
+    "nationality": "Kazakhstan",
+    "flag": "🇰🇿",
+    "weight_class": "Middleweight",
+    "wins": 11,
+    "losses": 4,
+    "draws": 2,
+    "kos": 8,
+    "active": true,
+    "sanctioning_bodies": [
+      "WBC"
+    ],
+    "stance": "Switch",
+    "dob": "2002-03-11",
+    "fight_history": []
+  },
+  {
+    "id": 80,
+    "name": "Zach Kowalski",
+    "nationality": "USA",
+    "flag": "🇺🇸",
+    "weight_class": "Cruiserweight",
+    "wins": 7,
+    "losses": 6,
+    "draws": 0,
+    "kos": 4,
+    "active": true,
+    "sanctioning_bodies": [],
+    "stance": "Orthodox",
+    "dob": "2005-02-14",
+    "fight_history": [
+      {
+        "opponent": "Liam Rourke",
+        "result": "W",
+        "method": "UD",
+        "date": "2023-12-03"
+      },
+      {
+        "opponent": "Dante Abara",
+        "result": "W",
+        "method": "RTD",
+        "date": "2020-10-12"
+      },
+      {
+        "opponent": "Malik Achebe",
+        "result": "D",
+        "method": "TKO",
+        "date": "2022-11-16"
+      },
+      {
+        "opponent": "Ryo Kowalski",
+        "result": "W",
+        "method": "KO",
+        "date": "2020-01-15"
+      },
+      {
+        "opponent": "Ryo Salvatore",
+        "result": "W",
+        "method": "MD",
+        "date": "2019-01-22"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Marco Reyes",
+    "nationality": "Puerto Rico",
+    "flag": "🇵🇷",
+    "weight_class": "Featherweight",
+    "wins": 6,
+    "losses": 2,
+    "draws": 0,
+    "kos": 2,
+    "active": true,
+    "sanctioning_bodies": [],
+    "stance": "Switch",
+    "dob": "2002-03-12",
+    "fight_history": [
+      {
+        "opponent": "Julius Abara",
+        "result": "D",
+        "method": "TKO",
+        "date": "2019-10-04"
+      },
+      {
+        "opponent": "Diego Bishop",
+        "result": "L",
+        "method": "RTD",
+        "date": "2020-07-06"
+      },
+      {
+        "opponent": "Chidi Salvatore",
+        "result": "W",
+        "method": "RTD",
+        "date": "2019-08-13"
+      },
+      {
+        "opponent": "Reece Bekmuradov",
+        "result": "W",
+        "method": "TKO",
+        "date": "2022-02-21"
+      },
+      {
+        "opponent": "Ryo Obi",
+        "result": "L",
+        "method": "TKO",
+        "date": "2026-09-15"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Chidi Mensah",
+    "nationality": "Cuba",
+    "flag": "🇨🇺",
+    "weight_class": "Super Middleweight",
+    "wins": 31,
+    "losses": 7,
+    "draws": 2,
+    "kos": 10,
+    "active": true,
+    "sanctioning_bodies": [
+      "IBF"
+    ],
+    "stance": "Southpaw",
+    "dob": "2000-05-19",
+    "fight_history": [
+      {
+        "opponent": "Zach Zhukov",
+        "result": "L",
+        "method": "MD",
+        "date": "2024-11-01"
+      },
+      {
+        "opponent": "Kwame Silva",
+        "result": "D",
+        "method": "RTD",
+        "date": "2025-01-05"
+      },
+      {
+        "opponent": "Enzo Costa",
+        "result": "W",
+        "method": "TKO",
+        "date": "2021-02-19"
+      },
+      {
+        "opponent": "Tariq Kavanagh",
+        "result": "W",
+        "method": "KO",
+        "date": "2019-01-17"
+      },
+      {
+        "opponent": "Ivan Okafor",
+        "result": "L",
+        "method": "KO",
+        "date": "2022-12-10"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Julius Reyes",
+    "nationality": "Thailand",
+    "flag": "🇹🇭",
+    "weight_class": "Welterweight",
+    "wins": 25,
+    "losses": 1,
+    "draws": 0,
+    "kos": 7,
+    "active": true,
+    "sanctioning_bodies": [
+      "IBF"
+    ],
+    "stance": "Southpaw",
+    "dob": "2001-05-09",
+    "fight_history": []
+  },
+  {
+    "id": 84,
+    "name": "Ade Barros",
+    "nationality": "USA",
+    "flag": "🇺🇸",
+    "weight_class": "Lightweight",
+    "wins": 30,
+    "losses": 8,
+    "draws": 0,
+    "kos": 16,
+    "active": true,
+    "sanctioning_bodies": [
+      "WBA"
+    ],
+    "stance": "Orthodox",
+    "dob": "1997-08-06",
+    "fight_history": []
+  },
+  {
+    "id": 85,
+    "name": "Julius Kowalski",
+    "nationality": "Colombia",
+    "flag": "🇨🇴",
+    "weight_class": "Middleweight",
+    "wins": 29,
+    "losses": 5,
+    "draws": 0,
+    "kos": 10,
+    "active": true,
+    "sanctioning_bodies": [
+      "WBO",
+      "IBF",
+      "WBC"
+    ],
+    "stance": "Switch",
+    "dob": "2000-11-02",
+    "fight_history": []
+  },
+  {
+    "id": 86,
+    "name": "Connor Bondarenko",
+    "nationality": "USA",
+    "flag": "🇺🇸",
+    "weight_class": "Bantamweight",
+    "wins": 24,
+    "losses": 6,
+    "draws": 0,
+    "kos": 16,
+    "active": true,
+    "sanctioning_bodies": [
+      "IBF",
+      "WBA"
+    ],
+    "stance": "Orthodox",
+    "dob": "2000-04-27",
+    "fight_history": [
+      {
+        "opponent": "Chidi Costa",
+        "result": "W",
+        "method": "SD",
+        "date": "2022-04-23"
+      },
+      {
+        "opponent": "Nikolai Adeyemi",
+        "result": "D",
+        "method": "UD",
+        "date": "2020-08-11"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Andriy Abara",
+    "nationality": "Colombia",
+    "flag": "🇨🇴",
+    "weight_class": "Light Heavyweight",
+    "wins": 30,
+    "losses": 5,
+    "draws": 2,
+    "kos": 10,
+    "active": false,
+    "sanctioning_bodies": [
+      "WBA"
+    ],
+    "stance": "Orthodox",
+    "dob": "1999-01-13",
+    "fight_history": [
+      {
+        "opponent": "Anton Callahan",
+        "result": "D",
+        "method": "RTD",
+        "date": "2020-08-24"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Enzo Delgado",
+    "nationality": "Colombia",
+    "flag": "🇨🇴",
+    "weight_class": "Light Heavyweight",
+    "wins": 8,
+    "losses": 1,
+    "draws": 0,
+    "kos": 6,
+    "active": true,
+    "sanctioning_bodies": [],
+    "stance": "Southpaw",
+    "dob": "2005-10-22",
+    "fight_history": [
+      {
+        "opponent": "Julius Reyes",
+        "result": "W",
+        "method": "TKO",
+        "date": "2024-09-18"
+      },
+      {
+        "opponent": "Danilo Bishop",
+        "result": "W",
+        "method": "KO",
+        "date": "2024-01-05"
+      },
+      {
+        "opponent": "Marcus Adeyemi",
+        "result": "D",
+        "method": "RTD",
+        "date": "2023-08-25"
+      },
+      {
+        "opponent": "Ade Torres",
+        "result": "W",
+        "method": "TKO",
+        "date": "2024-10-23"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Diego Achebe",
+    "nationality": "Poland",
+    "flag": "🇵🇱",
+    "weight_class": "Featherweight",
+    "wins": 17,
+    "losses": 7,
+    "draws": 0,
+    "kos": 11,
+    "active": true,
+    "sanctioning_bodies": [
+      "WBA"
+    ],
+    "stance": "Switch",
+    "dob": "2003-11-01",
+    "fight_history": [
+      {
+        "opponent": "Reece Petrov",
+        "result": "W",
+        "method": "UD",
+        "date": "2021-07-24"
+      },
+      {
+        "opponent": "Rocco Marchetti",
+        "result": "W",
+        "method": "UD",
+        "date": "2020-10-19"
+      },
+      {
+        "opponent": "Ryo Novak",
+        "result": "D",
+        "method": "SD",
+        "date": "2025-09-22"
+      },
+      {
+        "opponent": "Nikolai Kowalski",
+        "result": "W",
+        "method": "SD",
+        "date": "2021-02-15"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Anton Bondarenko",
+    "nationality": "Argentina",
+    "flag": "🇦🇷",
+    "weight_class": "Bantamweight",
+    "wins": 25,
+    "losses": 7,
+    "draws": 0,
+    "kos": 18,
+    "active": true,
+    "sanctioning_bodies": [
+      "IBF",
+      "WBC",
+      "WBO"
+    ],
+    "stance": "Orthodox",
+    "dob": "2002-12-09",
+    "fight_history": []
+  },
+  {
+    "id": 91,
+    "name": "Zach Hassan",
+    "nationality": "Cuba",
+    "flag": "🇨🇺",
+    "weight_class": "Cruiserweight",
+    "wins": 26,
+    "losses": 0,
+    "draws": 0,
+    "kos": 12,
+    "active": true,
+    "sanctioning_bodies": [
+      "IBF",
+      "WBO"
+    ],
+    "stance": "Orthodox",
+    "dob": "1998-06-07",
+    "fight_history": []
+  },
+  {
+    "id": 92,
+    "name": "Owen Duarte",
+    "nationality": "Argentina",
+    "flag": "🇦🇷",
+    "weight_class": "Heavyweight",
+    "wins": 10,
+    "losses": 2,
+    "draws": 0,
+    "kos": 4,
+    "active": false,
+    "sanctioning_bodies": [],
+    "stance": "Orthodox",
+    "dob": "2003-08-24",
+    "fight_history": [
+      {
+        "opponent": "Amir Torres",
+        "result": "D",
+        "method": "TKO",
+        "date": "2024-07-15"
+      },
+      {
+        "opponent": "Connor Santoro",
+        "result": "W",
+        "method": "MD",
+        "date": "2023-11-21"
+      },
+      {
+        "opponent": "Carlos Obi",
+        "result": "W",
+        "method": "SD",
+        "date": "2025-03-05"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Sergio Kavanagh",
+    "nationality": "Poland",
+    "flag": "🇵🇱",
+    "weight_class": "Lightweight",
+    "wins": 20,
+    "losses": 3,
+    "draws": 1,
+    "kos": 14,
+    "active": true,
+    "sanctioning_bodies": [],
+    "stance": "Orthodox",
+    "dob": "2002-06-02",
+    "fight_history": []
+  },
+  {
+    "id": 94,
+    "name": "Danilo Fontaine",
+    "nationality": "Kazakhstan",
+    "flag": "🇰🇿",
+    "weight_class": "Welterweight",
+    "wins": 21,
+    "losses": 0,
+    "draws": 2,
+    "kos": 13,
+    "active": true,
+    "sanctioning_bodies": [],
+    "stance": "Orthodox",
+    "dob": "2002-12-27",
+    "fight_history": [
+      {
+        "opponent": "Zach Kavanagh",
+        "result": "D",
+        "method": "TKO",
+        "date": "2019-01-16"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Andriy Lindqvist",
+    "nationality": "Ukraine",
+    "flag": "🇺🇦",
+    "weight_class": "Cruiserweight",
+    "wins": 24,
+    "losses": 7,
+    "draws": 0,
+    "kos": 9,
+    "active": false,
+    "sanctioning_bodies": [
+      "WBC",
+      "WBA",
+      "IBF"
+    ],
+    "stance": "Southpaw",
+    "dob": "1999-01-08",
+    "fight_history": [
+      {
+        "opponent": "Diego Bekmuradov",
+        "result": "W",
+        "method": "KO",
+        "date": "2019-12-19"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Levi Santoro",
+    "nationality": "Thailand",
+    "flag": "🇹🇭",
+    "weight_class": "Bantamweight",
+    "wins": 25,
+    "losses": 5,
+    "draws": 0,
+    "kos": 16,
+    "active": true,
+    "sanctioning_bodies": [],
+    "stance": "Orthodox",
+    "dob": "1998-11-13",
+    "fight_history": [
+      {
+        "opponent": "Wale Reyes",
+        "result": "W",
+        "method": "KO",
+        "date": "2024-12-17"
+      },
+      {
+        "opponent": "Rocco Salvatore",
+        "result": "L",
+        "method": "MD",
+        "date": "2022-09-03"
+      },
+      {
+        "opponent": "Reece Rourke",
+        "result": "L",
+        "method": "MD",
+        "date": "2021-11-08"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Enzo Silva",
+    "nationality": "Argentina",
+    "flag": "🇦🇷",
+    "weight_class": "Lightweight",
+    "wins": 6,
+    "losses": 1,
+    "draws": 0,
+    "kos": 1,
+    "active": true,
+    "sanctioning_bodies": [],
+    "stance": "Orthodox",
+    "dob": "2003-08-08",
+    "fight_history": []
+  },
+  {
+    "id": 98,
+    "name": "Nikolai Zhukov",
+    "nationality": "Cuba",
+    "flag": "🇨🇺",
+    "weight_class": "Featherweight",
+    "wins": 14,
+    "losses": 8,
+    "draws": 1,
+    "kos": 6,
+    "active": false,
+    "sanctioning_bodies": [],
+    "stance": "Switch",
+    "dob": "2001-06-06",
+    "fight_history": [
+      {
+        "opponent": "Enzo Osei",
+        "result": "W",
+        "method": "RTD",
+        "date": "2020-02-10"
+      },
+      {
+        "opponent": "Bruno Callahan",
+        "result": "D",
+        "method": "KO",
+        "date": "2022-01-26"
+      },
+      {
+        "opponent": "Sergio Achebe",
+        "result": "W",
+        "method": "MD",
+        "date": "2026-02-25"
+      },
+      {
+        "opponent": "Ben Bishop",
+        "result": "W",
+        "method": "SD",
+        "date": "2019-02-01"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Tariq Bondarenko",
+    "nationality": "Puerto Rico",
+    "flag": "🇵🇷",
+    "weight_class": "Flyweight",
+    "wins": 22,
+    "losses": 5,
+    "draws": 0,
+    "kos": 13,
+    "active": false,
+    "sanctioning_bodies": [
+      "WBC"
+    ],
+    "stance": "Southpaw",
+    "dob": "2001-02-11",
+    "fight_history": []
+  },
+  {
+    "id": 100,
+    "name": "Ben Achebe",
+    "nationality": "Georgia",
+    "flag": "🇬🇪",
+    "weight_class": "Flyweight",
+    "wins": 23,
+    "losses": 0,
+    "draws": 0,
+    "kos": 9,
+    "active": true,
+    "sanctioning_bodies": [
+      "WBC"
+    ],
+    "stance": "Switch",
+    "dob": "2002-07-13",
+    "fight_history": [
+      {
+        "opponent": "Owen Hassan",
+        "result": "W",
+        "method": "RTD",
+        "date": "2024-06-27"
+      },
+      {
+        "opponent": "Nikolai Fontaine",
+        "result": "W",
+        "method": "SD",
+        "date": "2026-01-27"
+      },
+      {
+        "opponent": "Bruno Kavanagh",
+        "result": "W",
+        "method": "MD",
+        "date": "2021-04-05"
+      }
+    ]
   }
 ]

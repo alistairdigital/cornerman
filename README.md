@@ -1,6 +1,6 @@
 # Cornerman — Fighter Database (MVP)
 
-Cornerman is a universal boxing hub, and this is its first shipped feature: a searchable, filterable Fighter Database. The frontend is a static site (Cloudflare Pages) that talks to a thin Cloudflare Worker API for search/filtering — a seeded dataset of 70 fighters across 10 weight classes powers a server-side-filtered homepage table (search by name, weight class, or nationality, plus sortable columns and a status/weight/nationality filter sidebar) and individual fighter profile pages with stat cards, sanctioning-body badges, and fight history. The brand system (white base, glove-red accent, navy ink, gold reserved strictly for sanctioning-body/championship content) is implemented as CSS custom properties in `css/styles.css` so Rankings and News can reuse the same tokens when they're built next. Rankings and News are intentionally out of scope for this MVP per the Build Lab Rule — ship one core feature, well.
+Cornerman is a universal boxing hub, and this is its first shipped feature: a searchable, filterable Fighter Database. The frontend is a static site (Cloudflare Pages) that talks to a thin Cloudflare Worker API for search/filtering — a seeded dataset of 100 fighters across 10 weight classes powers a server-side-filtered homepage table (search by name, weight class, or nationality, plus sortable columns and a status/weight/nationality filter sidebar) and individual fighter profile pages with stat cards, sanctioning-body badges, and fight history. The brand system (white base, glove-red accent, navy ink, gold reserved strictly for sanctioning-body/championship content) is implemented as CSS custom properties in `css/styles.css`, including a `[data-theme="dark"]` variant toggled from the nav and persisted to `localStorage`, so Rankings and News can reuse the same tokens when they're built next. Rankings and News are intentionally out of scope for this MVP per the Build Lab Rule — ship one core feature, well.
 
 **Live:** https://cornerman-1bo.pages.dev
 
@@ -29,7 +29,7 @@ npx wrangler pages deploy . --project-name=cornerman
 ```
 
 ## Data
-`worker/src/fighters.json` (bundled into the Worker) is a seeded demo dataset (70 fictional-but-realistic records) — not live fight data. Swap in a real feed by implementing `fetchLiveFighterData()` in `worker/src/liveData.js` and wiring it into the routes in `worker/src/index.js`, keeping the same schema:
+`worker/src/fighters.json` (bundled into the Worker) is a seeded demo dataset (100 fictional-but-realistic records, 10 per weight class) — not live fight data. Swap in a real feed by implementing `fetchLiveFighterData()` in `worker/src/liveData.js` and wiring it into the routes in `worker/src/index.js`, keeping the same schema:
 
 ```json
 {
@@ -45,11 +45,11 @@ npx wrangler pages deploy . --project-name=cornerman
 cornerman/
 ├── index.html            # homepage: search + filterable/sortable table
 ├── fighter.html           # fighter profile shell (rendered client-side)
-├── css/styles.css         # brand tokens + all component styles
+├── css/styles.css         # brand tokens (incl. dark theme) + all component styles
 ├── js/config.js           # API_BASE — Worker URL the frontend calls
+├── js/theme.js            # dark mode toggle + localStorage persistence
 ├── js/app.js              # homepage search/filter/sort logic (fetches from Worker)
 ├── js/profile.js          # profile page render logic (fetches from Worker)
-├── data/fighters.json     # seeded dataset (kept for reference/local tooling)
 └── worker/                # Cloudflare Worker API
     ├── wrangler.toml
     └── src/

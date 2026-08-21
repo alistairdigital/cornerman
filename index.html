@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+(function () {
+  var stored = localStorage.getItem('cornerman-theme');
+  var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  if (theme === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+})();
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cornerman — Your Corner for Boxing News, Rankings & Records</title>
@@ -14,10 +21,15 @@
 <nav class="nav">
   <div class="nav-inner">
     <a href="index.html" class="wordmark"><span class="mark">C</span>CORNERMAN</a>
-    <div class="nav-links">
-      <a href="index.html" class="active">Fighters</a>
-      <a href="#" title="Coming post-MVP">Rankings</a>
-      <a href="#" title="Coming post-MVP">News</a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="index.html" class="active">Fighters</a>
+        <a href="#" title="Coming post-MVP">Rankings</a>
+        <a href="#" title="Coming post-MVP">News</a>
+      </div>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="theme-toggle-icon">🌙</span>
+      </button>
     </div>
   </div>
 </nav>
@@ -90,6 +102,7 @@
 <footer>Cornerman — Fighter Database MVP. Seeded demo dataset, not live fight data.</footer>
 
 <script src="js/config.js"></script>
+<script src="js/theme.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
